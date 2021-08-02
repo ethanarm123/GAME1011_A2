@@ -118,7 +118,7 @@ public:
                     ss << player->symbol;
                 }
                 if (r == exit->row && c == exit->col) {
-                    ss << exit->symbol << " ";
+                    ss << exit->symbol;
                 }
                 else {
                     if (mapData[r][c] == 0 || mapData[r][c] == 2) {
